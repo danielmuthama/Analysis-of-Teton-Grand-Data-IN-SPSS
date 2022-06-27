@@ -305,15 +305,8 @@ b)	Frequency
 
 
 * Define Variable Properties.
-	EXECUTE.
-	DATASET ACTIVATE DataSet2.
-	    EXAMINE VARIABLES=Zfinalscore
-	      /PLOT BOXPLOT STEMLEAF HISTOGRAM NPPLOT
-	      /COMPARE GROUPS
-	      /STATISTICS DESCRIPTIVES
-	      /CINTERVAL 95
-	      /MISSING LISTWISE
-	      /NOTOTAL.
+	
+	
 
 
 
@@ -418,22 +411,26 @@ Saturday
     19.	Item 19(i19) – 99,4
     20.	Item 20(i20) – 99.4
 	
-Z-score analysis
-    1.	Monday and Saturday
-		    Kurtosis: - has std error of 0.218, statistic of 10.959
-		    Skewness: has std error of 0.109, statistic of -2.417
-		    Mean: std error of 0.04467671
-2.	Monday 
-		    Kurtosis: has std error of 0.273, statistic of 10.577
-		    Skewness: has std error of 0.137, statistic of – 2.570
-		    Mean: std error of 0.05625440
+					Z-Analysis
 
-3.	Saturday
-		    Kurtosis: has std error of 0.07352146, statistic of 10.959
-		    Skewness: has std error of 0.179, statistic of -2.570
-		    Mean: std error of 0.07352146
+	1.	Monday and Saturday
 
-Part B:
+			    Kurtosis: - has std error of 0.218, statistic of 10.959
+			    Skewness: has std error of 0.109, statistic of -2.417
+			    Mean: std error of 0.04467671
+
+	2.	Monday 
+
+			    Kurtosis: has std error of 0.273, statistic of 10.577
+			    Skewness: has std error of 0.137, statistic of – 2.570
+			    Mean: std error of 0.05625440
+
+	3.	Saturday
+
+			    Kurtosis: has std error of 0.07352146, statistic of 10.959
+			    Skewness: has std error of 0.179, statistic of -2.570
+			    Mean: std error of 0.07352146
+
 		Testing for normality – true if (std error of the mean >= 0.05)
 		    1.	Monday and Saturday: has a std error of 0.04467671
 		    2.	Monday: has a std error of 0.07352146
