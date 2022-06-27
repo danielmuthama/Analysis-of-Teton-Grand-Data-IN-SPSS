@@ -2,17 +2,17 @@
 
 
 
-						Visualizing, Analyzing and Explaining Teton Grand Data
-									Outline
+					Visualizing, Analyzing and Explaining Teton Grand Data
+								Outline
 									
 1.	Create a comprehensive explanation of ways in which Teton Grand may be able to use probability statistics and sample concepts when analysing their data. 
 2.	Be sure to define the concepts and use examples to highlight what they mean and how they might be relevant for Teton Grand. 
 3.	Please be sure that you are posting in a client-ready format, using professional and appropriate language for talking to an organization.
 
-								Analysis of Teton Grand data
-									Introduction
+						Analysis of Teton Grand data
+								Introduction
 In sampling a population or universe is defined as all items in an inquiry field while census inquiry is defined as a complete enumeration of all items in a population.
-								    Definition of terms
+								 Definition of terms
 		• Sampling error – 
 	
 This is a random variation in a sample estimate from the actual population parameters. Sampling error occurs equally and randomly – their nature can be of compensatory type and the expected value of such errors happens to be equal to zero. It can only be measured for a given sample design and size.
@@ -363,53 +363,53 @@ b)	Frequency
  
  
 
-Explanation
-Part A:
-Percentage confidence of the event happening
-		 Monday 
-    1.	Item 1(i1) – 97.3
-    2.	Item 2(i2) – 96.2
-    3.	Item 3(i3) – 97.8
-    4.	Item 4(i4) – 97.8
-    5.	Item 5(i5) – 98.9
-    6.	Item 6(i6) – 98.4
-    7.	Item 7(i7) – 97.3
-    8.	Item 8(i8) – 98.4
-    9.	Item 9(i9) – 98.4
-    10.	Item 10(i10) – 97.8
-    11.	Item 11(i11) – 98.4
-    12.	Item 12(i12) – 97.8
-    13.	Item 13(i13) – 98.4
-    14.	Item 14(i14) – 97.8
-    15.	Item 15(i15) – 97.8
-    16.	Item 16(i16) – 98.9
-    17.	Item 17(i17) – 96.8
-    18.	Item 18(i18) – 96.2
-    19.	Item 19(i19) – 97.3
-    20.	Item 20(i20) - 97.3
+			Explanation
 
-Saturday
+		Percentage confidence of the event happening
+				 Monday 
+		    1.	Item 1(i1) – 97.3
+		    2.	Item 2(i2) – 96.2
+		    3.	Item 3(i3) – 97.8
+		    4.	Item 4(i4) – 97.8
+		    5.	Item 5(i5) – 98.9
+		    6.	Item 6(i6) – 98.4
+		    7.	Item 7(i7) – 97.3
+		    8.	Item 8(i8) – 98.4
+		    9.	Item 9(i9) – 98.4
+		    10.	Item 10(i10) – 97.8
+		    11.	Item 11(i11) – 98.4
+		    12.	Item 12(i12) – 97.8
+		    13.	Item 13(i13) – 98.4
+		    14.	Item 14(i14) – 97.8
+		    15.	Item 15(i15) – 97.8
+		    16.	Item 16(i16) – 98.9
+		    17.	Item 17(i17) – 96.8
+		    18.	Item 18(i18) – 96.2
+		    19.	Item 19(i19) – 97.3
+		    20.	Item 20(i20) - 97.3
 
-    1.	Item 1(i1) – 100
-    2.	Item 2(i2) – 99.7
-    3.	Item 3(i3) – 99.4
-    4.	Item 4(i4) – 99.7
-    5.	Item 5(i5) – 99.7
-    6.	Item 6(i6) – 99.7
-    7.	Item 7(i7) – 99.7
-    8.	Item 8(i8) – 100
-    9.	Item 9(i9) – 100
-    10.	Item 10(i10) – 99.4
-    11.	Item 11(i11) – 99.7
-    12.	Item 12(i12) – 100
-    13.	Item 13(i13) – 99.7
-    14.	Item 14(i14) – 100
-    15.	Item 15(i15) – 99.7
-    16.	Item 16(i16) – 100
-    17.	Item 17(i17) – 99.7
-    18.	Item 18(i18) – 99.7
-    19.	Item 19(i19) – 99,4
-    20.	Item 20(i20) – 99.4
+		Saturday
+
+		    1.	Item 1(i1) – 100
+		    2.	Item 2(i2) – 99.7
+		    3.	Item 3(i3) – 99.4
+		    4.	Item 4(i4) – 99.7
+		    5.	Item 5(i5) – 99.7
+		    6.	Item 6(i6) – 99.7
+		    7.	Item 7(i7) – 99.7
+		    8.	Item 8(i8) – 100
+		    9.	Item 9(i9) – 100
+		    10.	Item 10(i10) – 99.4
+		    11.	Item 11(i11) – 99.7
+		    12.	Item 12(i12) – 100
+		    13.	Item 13(i13) – 99.7
+		    14.	Item 14(i14) – 100
+		    15.	Item 15(i15) – 99.7
+		    16.	Item 16(i16) – 100
+		    17.	Item 17(i17) – 99.7
+		    18.	Item 18(i18) – 99.7
+		    19.	Item 19(i19) – 99,4
+		    20.	Item 20(i20) – 99.4
 	
 					Z-Analysis
 
