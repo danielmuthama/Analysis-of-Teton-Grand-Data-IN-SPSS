@@ -420,26 +420,27 @@ Saturday
 	
 Z-score analysis
     1.	Monday and Saturday
-	    Kurtosis: - has std error of 0.218, statistic of 10.959
-	    Skewness: has std error of 0.109, statistic of -2.417
-	    Mean: std error of 0.04467671
+		    Kurtosis: - has std error of 0.218, statistic of 10.959
+		    Skewness: has std error of 0.109, statistic of -2.417
+		    Mean: std error of 0.04467671
 2.	Monday 
-	    Kurtosis: has std error of 0.273, statistic of 10.577
-	    Skewness: has std error of 0.137, statistic of – 2.570
-	    Mean: std error of 0.05625440
+		    Kurtosis: has std error of 0.273, statistic of 10.577
+		    Skewness: has std error of 0.137, statistic of – 2.570
+		    Mean: std error of 0.05625440
 
 3.	Saturday
-	    Kurtosis: has std error of 0.07352146, statistic of 10.959
-	    Skewness: has std error of 0.179, statistic of -2.570
-	    Mean: std error of 0.07352146
+		    Kurtosis: has std error of 0.07352146, statistic of 10.959
+		    Skewness: has std error of 0.179, statistic of -2.570
+		    Mean: std error of 0.07352146
 
 Part B:
-Testing for normality – true if (std error of the mean >= 0.05)
-    1.	Monday and Saturday: has a std error of 0.04467671
-    2.	Monday: has a std error of 0.07352146
-    3.	Saturday: has a std error of 0.05625440
+		Testing for normality – true if (std error of the mean >= 0.05)
+		    1.	Monday and Saturday: has a std error of 0.04467671
+		    2.	Monday: has a std error of 0.07352146
+		    3.	Saturday: has a std error of 0.05625440
  
-	    References
+								References
+	    
 Mardia, K. V. (2013). Applications of some measures of multivariate skewness and kurtosis in testing normality and robustness studies. Sankhyā: The Indian Journal of Statistics, Series B, 115-128.
 Tian, L., Cai, T., Goetghebeur, E., & Wei, L. J. (2007). Model evaluation based on the sampling distribution of estimated absolute prediction error. Biometrika, 94(2), 297-311.
 
