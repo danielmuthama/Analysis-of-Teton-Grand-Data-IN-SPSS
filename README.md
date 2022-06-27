@@ -431,10 +431,11 @@ b)	Frequency
 			    Skewness: has std error of 0.179, statistic of -2.570
 			    Mean: std error of 0.07352146
 
-		Testing for normality – true if (std error of the mean >= 0.05)
-		    1.	Monday and Saturday: has a std error of 0.04467671
-		    2.	Monday: has a std error of 0.07352146
-		    3.	Saturday: has a std error of 0.05625440
+			Testing for normality – true if (std error of the mean >= 0.05)
+			
+			    1.	Monday and Saturday: has a std error of 0.04467671
+			    2.	Monday: has a std error of 0.07352146
+			    3.	Saturday: has a std error of 0.05625440
  
 								References
 	    
