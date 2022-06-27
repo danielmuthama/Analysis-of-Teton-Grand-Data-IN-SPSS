@@ -1,26 +1,35 @@
 ### Analysis-of-Teton-Grand-Data-IN-SPSS
 
 
- 
-    Visualizing, Analyzing and Explaining Teton Grand Data
-        Outline
+
+						Visualizing, Analyzing and Explaining Teton Grand Data
+									Outline
+									
 1.	Create a comprehensive explanation of ways in which Teton Grand may be able to use probability statistics and sample concepts when analysing their data. 
 2.	Be sure to define the concepts and use examples to highlight what they mean and how they might be relevant for Teton Grand. 
 3.	Please be sure that you are posting in a client-ready format, using professional and appropriate language for talking to an organization.
 
-Analysis of Teton Grand data
-    Introduction
+								Analysis of Teton Grand data
+									Introduction
 In sampling a population or universe is defined as all items in an inquiry field while census inquiry is defined as a complete enumeration of all items in a population.
-    Definition of terms
-	• Sampling error – 
+								    Definition of terms
+		• Sampling error – 
+	
 This is a random variation in a sample estimate from the actual population parameters. Sampling error occurs equally and randomly – their nature can be of compensatory type and the expected value of such errors happens to be equal to zero. It can only be measured for a given sample design and size.
-	• Measure of reliability – 
+
+		• Measure of reliability – 
+	
 This is the steadiness of different measurement of the same thing
-	• Standard error – 
+
+		• Standard error – 
+	
 Standard error’s sample provides a quite accurate representation of a certain population, although sometimes it may produce means which are completely out of distribution tail – relatively far from the main mean. Therefore, standard error known for providing a definite method for measuring and defining sampling – it measures the standard average between the population mean and the sample mean (Tian et al., 2007).
-	• Probability sampling – 
+
+		• Probability sampling –
+	
 It is also referred to as chance sampling or random sampling. Random sampling has equal chances of inclusion. The gathered results from the probability or random sampling can be expressed in terms of probability – therefore it be very easy to estimate and measure significance or errors of the obtained results which bring about superiority in random sampling (Mardia, 2013).
-	• Probability and distribution of a sampled mean
+
+		• Probability and distribution of a sampled mean
 
 Teton Grand variable definition
 
