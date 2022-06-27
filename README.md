@@ -12,11 +12,15 @@ Analysis of Teton Grand data
     Introduction
 In sampling a population or universe is defined as all items in an inquiry field while census inquiry is defined as a complete enumeration of all items in a population.
     Definition of terms
-•	Sampling error – is a random variation in a sample estimate from the actual population parameters. Sampling error occurs equally and randomly – their nature can be of compensatory type and the expected value of such errors happens to be equal to zero. It can only be measured for a given sample design and size.
-•	Measure of reliability – is the steadiness of different measurement of the same thing
-•	Standard error – standard error’s sample provides a quite accurate representation of a certain population, although sometimes it may produce means which are completely out of distribution tail – relatively far from the main mean. Therefore, standard error known for providing a definite method for measuring and defining sampling – it measures the standard average between the population mean and the sample mean (Tian et al., 2007).
-•	Probability sampling – it is also referred to as chance sampling or random sampling. Random sampling has equal chances of inclusion. The gathered results from the probability or random sampling can be expressed in terms of probability – therefore it be very easy to estimate and measure significance or errors of the obtained results which bring about superiority in random sampling (Mardia, 2013).
-•	Probability and distribution of a sampled mean
+	• Sampling error – 
+This is a random variation in a sample estimate from the actual population parameters. Sampling error occurs equally and randomly – their nature can be of compensatory type and the expected value of such errors happens to be equal to zero. It can only be measured for a given sample design and size.
+	• Measure of reliability – 
+This is the steadiness of different measurement of the same thing
+	• Standard error – 
+Standard error’s sample provides a quite accurate representation of a certain population, although sometimes it may produce means which are completely out of distribution tail – relatively far from the main mean. Therefore, standard error known for providing a definite method for measuring and defining sampling – it measures the standard average between the population mean and the sample mean (Tian et al., 2007).
+	• Probability sampling – 
+It is also referred to as chance sampling or random sampling. Random sampling has equal chances of inclusion. The gathered results from the probability or random sampling can be expressed in terms of probability – therefore it be very easy to estimate and measure significance or errors of the obtained results which bring about superiority in random sampling (Mardia, 2013).
+	• Probability and distribution of a sampled mean
 
 Teton Grand variable definition
 
@@ -101,9 +105,9 @@ a)	Frequency
  
  
 b)	Saturday 
-    FREQUENCIES VARIABLES=i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15 i16 i17 i18 i19 i20
-      /HISTOGRAM NORMAL
-      /ORDER=ANALYSIS.
+	    FREQUENCIES VARIABLES=i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15 i16 i17 i18 i19 i20
+	      /HISTOGRAM NORMAL
+	      /ORDER=ANALYSIS.
 
 Frequency distribution
  
@@ -157,10 +161,10 @@ PART B
 a)	Descriptive
 
 
-     DESCRIPTIVES VARIABLES=Zfinalscore
-      /SAVE
-      /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN 
-     KURTOSIS SKEWNESS.
+	     DESCRIPTIVES VARIABLES=Zfinalscore
+	      /SAVE
+	      /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN 
+	     KURTOSIS SKEWNESS.
 
 
 
@@ -172,8 +176,8 @@ b)	Frequencies
 
 
 
-     FREQUENCIES VARIABLES=Zfinalscore
-      /ORDER=ANALYSIS.
+	     FREQUENCIES VARIABLES=Zfinalscore
+	      /ORDER=ANALYSIS.
 
 
 
@@ -187,9 +191,9 @@ b)	Frequencies
 
 a)	Descriptive 
 
-    DESCRIPTIVES VARIABLES=Zfinalscore
-      /SAVE
-    /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN KURTOSIS SKEWNESS.
+	    DESCRIPTIVES VARIABLES=Zfinalscore
+	      /SAVE
+	    /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN KURTOSIS SKEWNESS.
 
 
 
@@ -202,10 +206,10 @@ a)	Descriptive
 b)	Frequency 
 
 
-    DATASET ACTIVATE DataSet3.
-    FREQUENCIES VARIABLES=Zfinalscore
-    /HISTOGRAM NORMAL
-    /ORDER=ANALYSIS.
+	    DATASET ACTIVATE DataSet3.
+	    FREQUENCIES VARIABLES=Zfinalscore
+	    /HISTOGRAM NORMAL
+	    /ORDER=ANALYSIS.
 
 
 
@@ -227,9 +231,9 @@ b)	Frequency
 
 1.	Descriptive 
 
-    DESCRIPTIVES VARIABLES=Zfinalscore
-      /SAVE
-      /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN KURTOSIS SKEWNESS.
+	    DESCRIPTIVES VARIABLES=Zfinalscore
+	      /SAVE
+	      /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN KURTOSIS SKEWNESS.
 
 
  
@@ -237,10 +241,10 @@ b)	Frequency
 
 2.	Frequency 
 
-    FREQUENCIES VARIABLES=Zfinalscore
-      /HISTOGRAM NORMAL
-      /ORDER=ANALYSIS.
- 
+	    FREQUENCIES VARIABLES=Zfinalscore
+	      /HISTOGRAM NORMAL
+	      /ORDER=ANALYSIS.
+
 
  
 
@@ -255,13 +259,13 @@ b)	Frequency
 1.	Saturday 
 
 
-    EXAMINE VARIABLES=Zfinalscore
-      /PLOT BOXPLOT STEMLEAF HISTOGRAM NPPLOT
-      /COMPARE GROUPS
-      /STATISTICS DESCRIPTIVES
-      /CINTERVAL 95
-      /MISSING LISTWISE
-      /NOTOTAL.
+	    EXAMINE VARIABLES=Zfinalscore
+	      /PLOT BOXPLOT STEMLEAF HISTOGRAM NPPLOT
+	      /COMPARE GROUPS
+	      /STATISTICS DESCRIPTIVES
+	      /CINTERVAL 95
+	      /MISSING LISTWISE
+	      /NOTOTAL.
 
 
 
@@ -290,15 +294,15 @@ b)	Frequency
 
 
 * Define Variable Properties.
-EXECUTE.
-DATASET ACTIVATE DataSet2.
-    EXAMINE VARIABLES=Zfinalscore
-      /PLOT BOXPLOT STEMLEAF HISTOGRAM NPPLOT
-      /COMPARE GROUPS
-      /STATISTICS DESCRIPTIVES
-      /CINTERVAL 95
-      /MISSING LISTWISE
-      /NOTOTAL.
+	EXECUTE.
+	DATASET ACTIVATE DataSet2.
+	    EXAMINE VARIABLES=Zfinalscore
+	      /PLOT BOXPLOT STEMLEAF HISTOGRAM NPPLOT
+	      /COMPARE GROUPS
+	      /STATISTICS DESCRIPTIVES
+	      /CINTERVAL 95
+	      /MISSING LISTWISE
+	      /NOTOTAL.
 
 
 
@@ -325,13 +329,13 @@ DATASET ACTIVATE DataSet2.
 
 
 
-    EXAMINE VARIABLES=Zfinalscore
-      /PLOT BOXPLOT STEMLEAF HISTOGRAM NPPLOT
-      /COMPARE GROUPS
-      /STATISTICS DESCRIPTIVES
-      /CINTERVAL 95
-      /MISSING LISTWISE
-      /NOTOTAL.
+	    EXAMINE VARIABLES=Zfinalscore
+	      /PLOT BOXPLOT STEMLEAF HISTOGRAM NPPLOT
+	      /COMPARE GROUPS
+	      /STATISTICS DESCRIPTIVES
+	      /CINTERVAL 95
+	      /MISSING LISTWISE
+	      /NOTOTAL.
 
 
 
@@ -405,18 +409,18 @@ Saturday
 	
 Z-score analysis
     1.	Monday and Saturday
-    Kurtosis: - has std error of 0.218, statistic of 10.959
-    Skewness: has std error of 0.109, statistic of -2.417
-    Mean: std error of 0.04467671
+	    Kurtosis: - has std error of 0.218, statistic of 10.959
+	    Skewness: has std error of 0.109, statistic of -2.417
+	    Mean: std error of 0.04467671
 2.	Monday 
-    Kurtosis: has std error of 0.273, statistic of 10.577
-    Skewness: has std error of 0.137, statistic of – 2.570
-    Mean: std error of 0.05625440
+	    Kurtosis: has std error of 0.273, statistic of 10.577
+	    Skewness: has std error of 0.137, statistic of – 2.570
+	    Mean: std error of 0.05625440
 
 3.	Saturday
-    Kurtosis: has std error of 0.07352146, statistic of 10.959
-    Skewness: has std error of 0.179, statistic of -2.570
-    Mean: std error of 0.07352146
+	    Kurtosis: has std error of 0.07352146, statistic of 10.959
+	    Skewness: has std error of 0.179, statistic of -2.570
+	    Mean: std error of 0.07352146
 
 Part B:
 Testing for normality – true if (std error of the mean >= 0.05)
@@ -424,7 +428,7 @@ Testing for normality – true if (std error of the mean >= 0.05)
     2.	Monday: has a std error of 0.07352146
     3.	Saturday: has a std error of 0.05625440
  
-    References
+	    References
 Mardia, K. V. (2013). Applications of some measures of multivariate skewness and kurtosis in testing normality and robustness studies. Sankhyā: The Indian Journal of Statistics, Series B, 115-128.
 Tian, L., Cai, T., Goetghebeur, E., & Wei, L. J. (2007). Model evaluation based on the sampling distribution of estimated absolute prediction error. Biometrika, 94(2), 297-311.
 
