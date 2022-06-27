@@ -105,9 +105,10 @@ a)	Frequency
  
  
 b)	Saturday 
-	    FREQUENCIES VARIABLES=i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15 i16 i17 i18 i19 i20
-	      /HISTOGRAM NORMAL
-	      /ORDER=ANALYSIS.
+
+		    FREQUENCIES VARIABLES=i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15 i16 i17 i18 i19 i20
+		      /HISTOGRAM NORMAL
+		      /ORDER=ANALYSIS.
 
 Frequency distribution
  
@@ -161,10 +162,10 @@ PART B
 a)	Descriptive
 
 
-	     DESCRIPTIVES VARIABLES=Zfinalscore
-	      /SAVE
-	      /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN 
-	     KURTOSIS SKEWNESS.
+		     DESCRIPTIVES VARIABLES=Zfinalscore
+		      /SAVE
+		      /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN 
+		     KURTOSIS SKEWNESS.
 
 
 
@@ -176,8 +177,8 @@ b)	Frequencies
 
 
 
-	     FREQUENCIES VARIABLES=Zfinalscore
-	      /ORDER=ANALYSIS.
+		     FREQUENCIES VARIABLES=Zfinalscore
+		      /ORDER=ANALYSIS.
 
 
 
@@ -191,9 +192,10 @@ b)	Frequencies
 
 a)	Descriptive 
 
-	    DESCRIPTIVES VARIABLES=Zfinalscore
-	      /SAVE
-	    /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN KURTOSIS SKEWNESS.
+
+		    DESCRIPTIVES VARIABLES=Zfinalscore
+		      /SAVE
+		    /STATISTICS=MEAN STDDEV VARIANCE RANGE SEMEAN KURTOSIS SKEWNESS.
 
 
 
@@ -206,10 +208,10 @@ a)	Descriptive
 b)	Frequency 
 
 
-	    DATASET ACTIVATE DataSet3.
-	    FREQUENCIES VARIABLES=Zfinalscore
-	    /HISTOGRAM NORMAL
-	    /ORDER=ANALYSIS.
+		    DATASET ACTIVATE DataSet3.
+		    FREQUENCIES VARIABLES=Zfinalscore
+		    /HISTOGRAM NORMAL
+		    /ORDER=ANALYSIS.
 
 
 
