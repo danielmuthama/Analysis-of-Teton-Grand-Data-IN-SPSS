@@ -437,9 +437,4 @@ b)	Frequency
 			    2.	Monday: has a std error of 0.07352146
 			    3.	Saturday: has a std error of 0.05625440
  
-								References
-
-			Mardia, K. V. (2013). Applications of some measures of multivariate skewness and kurtosis in testing normality and robustness studies. Sankhyā: The Indian Journal of Statistics, Series B, 115-128.
-
-		Tian, L., Cai, T., Goetghebeur, E., & Wei, L. J. (2007). Model evaluation based on the sampling distribution of estimated absolute prediction error. Biometrika, 94(2), 297-311.
 
